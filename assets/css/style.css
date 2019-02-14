@@ -7,6 +7,9 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 /*----------navigation-----*/
+.navbar {
+    margin-bottom: 0;
+}
 .menuitem {
     height: 54px;
     text-align: center;
@@ -42,16 +45,51 @@ html {
 }
 
 /*------home--------*/
-.description-home {
-    text-align: center;
-    font-family: fantasy
-}
-.description-title {
-    font-family: monospace;
-    font-style: italic;
-    text-decoration: underline;
-}
 
+
+.darken {
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(http://wwwrollingstones.wpengine.netdna-cdn.com/files/2018/04/Screen-Shot-2018-04-22-at-19.41.53-600x600.png);
+     background-size: cover;
+  margin:inherit;
+  position:relative;
+  float: left;
+  
+  
+}
+.section-bio{
+    width:100%;
+    height:420px;
+    color:rgba(255,255,255,.7);
+    font-family: cursive;
+    text-align: center;
+    font-size: medium;
+    padding-left: 50%;
+}
+ .button {
+         background: linear-gradient(
+      rgba(343, 223, 0, 0.7),
+      rgba(0, 232, 232, 0.6)
+    );
+         border: none;
+         color: white;
+         padding: 20px 34px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+    
+}
+/*------what's new ----*/
+.bg-section-new {
+    background: url(https://www.google.co.uk/url?sa=i&source=images&cd=&ved=2ahUKEwjaleO457vgAhXXA2MBHRDSBGUQjRx6BAgBEAU&url=http%3A%2F%2Fwww.designbolts.com%2F2012%2F11%2F26%2F25-free-simple-black-seamless-patterns-for-website-backgrounds%2F&psig=AOvVaw1iM7MQX8pulA3w7pbV_OwA&ust=1550253752812416);
+}
 /*------footer------*/
 .social-links {
     text-align: center;
