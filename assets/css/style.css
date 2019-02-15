@@ -67,25 +67,12 @@ html {
   width: 100%;
   height:auto;
     }
-@media only screen and (max-width: 472px){
-    .col-xs-2{
-        width:100%;
-    }
-}
-@media only screen and (min-width: 769px) {
-    .dmr-1 {
-        margin-top:25px;
-        margin-left:50px;
-    }
-}
-@media only screen and (min-width: 769px) {
-    .dmr-2 {
-        margin-top:45px;
-        margin-left:180px;
-    }
-}
-/*------home--------*/
 
+
+/*------home--------*/
+.bg-home{
+    background-color:#ffff99;
+} 
 .responsive {
     max-width: 100%; 
 display:block; 
@@ -107,12 +94,11 @@ height: auto;
   
   
 }
-.dmr-2 {
-    margin-bottom: 20px;
-}
+
+
 .section-bio{
     height:420px;
-    color:rgba(205,215,255,.4);
+    color:rgb(216,216,216);
     padding-top:20%;
     padding-left: 10%;
     margin-top:5px;
@@ -136,8 +122,19 @@ height: auto;
     
 }
 /*------what's new ----*/
-.bg-section-new {
-    background: url(https://www.google.co.uk/url?sa=i&source=images&cd=&ved=2ahUKEwjaleO457vgAhXXA2MBHRDSBGUQjRx6BAgBEAU&url=http%3A%2F%2Fwww.designbolts.com%2F2012%2F11%2F26%2F25-free-simple-black-seamless-patterns-for-website-backgrounds%2F&psig=AOvVaw1iM7MQX8pulA3w7pbV_OwA&ust=1550253752812416);
+.bg-section-new {  
+    background-color: #000;
+}
+.paa2 {
+    padding-top: 40px;
+}
+.showcase-item , img , p {
+    text-align: center;
+}
+.showcase-item p {
+    font-family: serif;
+    color: #fff;
+    font-size: 1.5em;
 }
 /*------footer------*/
 .social-links {
