@@ -24,7 +24,7 @@ html {
 .menuitem a {
     width: 100% ;
     text-decoration: none;
-    color:orange;
+    color:#d3d3d3;
     height: 54px;
    
 }
@@ -32,7 +32,7 @@ html {
 .menuitem a i {
     padding-top: 4px;
     display: block;
-    color:orange;
+    color:#d3d3d3;
     font-size: 19px;
 }
 
@@ -67,9 +67,30 @@ html {
   width: 100%;
   height:auto;
     }
+@media only screen and (max-width: 472px){
+    .col-xs-2{
+        width:100%;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .dmr-1 {
+        margin-top:25px;
+        margin-left:50px;
+    }
+}
+@media only screen and (min-width: 769px) {
+    .dmr-2 {
+        margin-top:45px;
+        margin-left:180px;
+    }
+}
 /*------home--------*/
 
-
+.responsive {
+    max-width: 100%; 
+display:block; 
+height: auto;
+}
 .darken {
   background-image: 
     linear-gradient(
@@ -86,15 +107,17 @@ html {
   
   
 }
+.dmr-2 {
+    margin-bottom: 20px;
+}
 .section-bio{
-    width:100%;
     height:420px;
     color:rgba(205,215,255,.4);
-    font-family: cursive;
-    text-align: center;
-    font-size: medium;
-    padding-left: 50%;
+    padding-top:20%;
+    padding-left: 10%;
     margin-top:5px;
+    overflow:hidden;
+    line-height:20px;
 }
  .button {
          background: linear-gradient(
@@ -103,7 +126,7 @@ html {
     );
          border: none;
          color: white;
-         padding: 20px 34px;
+         padding: 6px 34px;
          text-align: center;
          text-decoration: none;
          display: inline-block;
