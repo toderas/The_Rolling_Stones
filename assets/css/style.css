@@ -265,6 +265,32 @@ height: auto;
     
 }
 /*------shop----*/
+.bg-shop{
+    background-color: #626262;
+}
+    
+.shop-category {
+    text-align: center;
+    margin:50px;
+    padding:80px;
+    background-color: #fafafa;
+    
+}
+.shop-category img {
+    display: block;
+    width: 100%;
+    height:auto;
+}
+.category-title {
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.category-description {
+    margin-left: -40px;
+    text-align: left;
+}
 /*------calendar ----*/
 /*------footer------*/
 .social-links {
