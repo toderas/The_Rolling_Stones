@@ -182,6 +182,64 @@ height: auto;
 }
 
 /*------The Band  ----*/
+
+.team-title {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+.band-member  {
+    text-align: center;
+}
+@media only screen and (max-width:1150px){
+    .band-member {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:990px){
+    .band-member {
+        width: 100%;
+    }
+}
+.band-member a img:hover {
+    transition-duration: 0.2s;
+    opacity: 0.9;
+}
+.cover-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.member-name {
+    font-family: Hanalei Fill;
+    font-size: 1.3em;
+    font-style: italic;
+    color: #000000;
+}
+.member-skills {
+    font-family:serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+.band-social li a i{
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 19px;
+    line-height: 7px;
+    text-align:center;
+    color:#e84610;
+}
+.band-social li a i:hover {
+  background-color: #696969;  
+  color: #0000ff;
+  transition-duration: 0.2s;
+}
+
 /*------Contact ----*/
 /*------shop----*/
 /*------calendar ----*/
