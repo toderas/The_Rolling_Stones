@@ -71,6 +71,9 @@ html {
     .col-xs-2 {
         width: 100%;
     }
+    .navbar {
+        padding-bottom: 5px;
+    }
 }
 
 /*------home--------*/
@@ -103,11 +106,17 @@ height: auto;
 .section-bio{
     height:420px;
     color:rgb(216,216,216);
-    padding-top:20%;
+    text-align: left;
+    padding-right:40%;
     padding-left: 10%;
-    margin-top:5px;
+    margin-top: 3px;
     overflow:hidden;
-    line-height:20px;
+    line-height:1.3em;
+    font-size: 1.5em; 
+    
+}
+.section-bio img {
+    padding-top: 120px;
 }
  .button {
          background: linear-gradient(
@@ -125,14 +134,36 @@ height: auto;
          cursor: pointer;
     
 }
+.quotes {
+    margin-top: 20px;
+    padding: 5px;
+}
+.quote {
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-shadow: 1px 1px #f00000 ;
+    margin-top: 15px;
+    
+}
+.author {
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+.quotes-2 {
+    margin-top: 25px;
+    margin-left: 75px;
+} 
 /*------what's new ----*/
 .bg-section-new {  
     background-color: #000;
 }
-.paa2 {
-    padding-top: 40px;
+.showcase-item {
+    padding: 40px;
 }
-.showcase-item , img , p {
+.showcase-item, img,  p {
     text-align: center;
 }
 .showcase-item p {
@@ -140,6 +171,20 @@ height: auto;
     color: #fff;
     font-size: 1.5em;
 }
+.audio p {
+    text-align: left;
+    padding-left: 10%;
+    color: #fafafa;
+}
+.showcase-item:hover {
+    opacity: 0.6;
+    transition-duration: 0.2s;
+}
+
+/*------The Band  ----*/
+/*------Contact ----*/
+/*------shop----*/
+/*------calendar ----*/
 /*------footer------*/
 .social-links {
     text-align: center;
