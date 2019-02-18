@@ -291,6 +291,20 @@ height: auto;
     margin-left: -40px;
     text-align: left;
 }
+.category-description p {
+    font-size: 0.9em;
+    
+}
+@media only screen and (max-width:1200px){
+    .category-item {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:760px){
+    .category-item {
+        width: 100%;
+    }
+}
 /*------calendar ----*/
 /*------footer------*/
 .social-links {
