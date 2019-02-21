@@ -306,7 +306,55 @@ height: auto;
     }
 }
 /*------calendar ----*/
-.bg-calendar {
+.cd-column {
+    border: 10px solid;
+    border-color: #fafafa;
+    background-color: #add8e6;
+}
+.cd-date {
+   text-align: left;
+   padding-left: 15px;
+}
+.cd-cover img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+.cd-map {
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+
+.cd-location-venue {
+    text-align: center;
+    font-family: serif;
+    font-size: 1.4em;
+}
+.cd-social {
+ text-align: center; 
+ margin-top: 20px;
+}
+.cd-social li a i {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 19px;
+    line-height: 7px;
+    text-align:center;
+    color:#e84610;
+}
+.cd-social li a i:hover {
+  background-color: #696969;  
+  color: #0000ff;
+  transition-duration: 0.2s;
+} 
+.btn-sm {
+    border-style: groove;
+}
+/*.bg-calendar {
     background-color: #000000;
 }
 .ticket {
@@ -344,7 +392,8 @@ height: auto;
   background-color: #696969;  
   color: #0000ff;
   transition-duration: 0.2s;
-}
+}   
+*/
 /*------footer------*/
 .social-links {
     text-align: center;
