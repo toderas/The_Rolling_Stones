@@ -104,15 +104,14 @@ height: auto;
 
 
 .section-bio{
-    height:420px;
+    height:auto;
     color:rgb(216,216,216);
     text-align: left;
-    padding-right:40%;
-    padding-left: 10%;
+   padding:120px;
     margin-top: 3px;
     overflow:hidden;
-    line-height:1.3em;
-    font-size: 1.5em; 
+    line-height:1.5em;
+    font-size: 1.7em;
     
 }
 .section-bio img {
@@ -136,13 +135,11 @@ height: auto;
 }
 .quotes {
     margin-top: 20px;
-    padding: 5px;
 }
 .quote {
     text-align: left;
     font-family: sans-serif;
     font-size: 1.2em;
-    text-shadow: 1px 1px #f00000 ;
     margin-top: 15px;
     
 }
@@ -155,6 +152,8 @@ height: auto;
 .quotes-2 {
     margin-top: 25px;
     margin-left: 75px;
+    display: block;
+    width: auto;
 } 
 /*------what's new ----*/
 .bg-section-new {  
@@ -354,46 +353,7 @@ height: auto;
 .btn-sm {
     border-style: groove;
 }
-/*.bg-calendar {
-    background-color: #000000;
-}
-.ticket {
-    background-color: #f0be57;
-    margin-top: 15px;
-}
-.ticket-cover {
-    width: 275px;
-    height: 183px;
-}
-.ticket-city {
-    font-family: sans-serif;
-    font-size: 1.4em;
-    text-decoration: overline;
-}
-.ticket-location {
-    font-family: sans-serif;
-    font-style: italic;
-    font-size: 1.2em;
-}
-.ticket-social {
- text-align: center; 
-}
-.ticket-social li a i {
-    width: 30px;
-    height: 30px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 19px;
-    line-height: 7px;
-    text-align:center;
-    color:#e84610;
-}
-.ticket-social li a i:hover {
-  background-color: #696969;  
-  color: #0000ff;
-  transition-duration: 0.2s;
-}   
-*/
+
 /*------footer------*/
 .social-links {
     text-align: center;
