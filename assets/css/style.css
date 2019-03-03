@@ -6,17 +6,29 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.hero-image {
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfPA9WlOPXXw8vBKWFgBWYTivcRokdboaE3QlWgdm-l38lnSC);
+    background-size: cover;
+  position:relative;
+  width: 100%;
+  height:450px;
+    
+}
 /*----------navigation-----*/
 
-
 .navbar {
-    margin:0;
-    padding-bottom: 150px;
+    display:block;
 }
 .menuitem {
     height: 54px;
-    text-align: center;
+    text-align: right;
     padding-top:20px;
+    
     
   
 }
@@ -24,16 +36,9 @@ html {
 .menuitem a {
     width: 100% ;
     text-decoration: none;
-    color:#d3d3d3;
+    color:#fff;
     height: 54px;
    
-}
-
-.menuitem a i {
-    padding-top: 4px;
-    display: block;
-    color:#d3d3d3;
-    font-size: 19px;
 }
 
 
@@ -49,112 +54,39 @@ html {
     letter-spacing: 2px;
 }
 .menuitem span:hover {
-    transition-duration: 0.2s;
-    color:#e84610; 
+    transition-duration: 0.02s;
+    color:#000; 
 }
 
     .navbar {
-        background-image:
-       linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTowmdTA5UHszdBWVIaeOKPw3Xk8MvZATSLc3qCQdZ0jY5v0AfC);
-    display: block;
-    background-size: cover;
-  margin:inherit;
-  position:relative;
-  width: 100%;
-  height:auto;
+    background-color:transparent;
     }
 @media only screen and (max-width:594px){
     .col-xs-2 {
-        width: 100%;
+        width: 33.3%;
     }
     .navbar {
-        padding-bottom: 5px;
+    padding-bottom: 5px
     }
 }
 
 /*------home--------*/
-.bg-home{
-    background-color:#ffff99;
-} 
-.responsive {
-    max-width: 100%; 
-display:block; 
-height: auto;
-}
-.darken {
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfPA9WlOPXXw8vBKWFgBWYTivcRokdboaE3QlWgdm-l38lnSC);
-    display: block;
-    background-size: cover;
-  margin:inherit;
-  position:relative;
-  width: 100%;
-  height:auto;
-  
-  
-}
 
-
-.section-bio{
-    height:auto;
-    color:rgb(216,216,216);
-    text-align: left;
-   padding:120px;
-    margin-top: 3px;
-    overflow:hidden;
-    line-height:1.5em;
-    font-size: 1.7em;
-    
-}
-.section-bio img {
-    padding-top: 120px;
-}
- .button {
-         background: linear-gradient(
-      rgba(205, 215, 0, 0.1),
-      rgba(205, 212, 0, 0.1)
-    );
-         border: none;
-         color: white;
-         padding: 6px 34px;
-         text-align: center;
-         text-decoration: none;
-         display: inline-block;
-         font-size: 20px;
-         margin: 4px 2px;
-         cursor: pointer;
-    
-}
 .quotes {
-    margin-top: 20px;
-}
-.quote {
-    text-align: left;
-    font-family: sans-serif;
-    font-size: 1.2em;
-    margin-top: 15px;
-    
+    font-family:serif;
+    font-size:1.2em;
+    color: rgba(255,255,255,0.5);
+    padding-top:15%;
+    padding-left:20%;
+    display:inline-block;
 }
 .author {
-    text-align: right;
+    text-align: left;
     font-family: monospace;
     font-size: 1.5em;
     text-decoration: underline;
 }
-.quotes-2 {
-    margin-top: 25px;
-    margin-left: 75px;
-    display: block;
-    width: auto;
-} 
+
 /*------what's new ----*/
 .bg-section-new {  
     background-color: #000;
