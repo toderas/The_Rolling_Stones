@@ -92,13 +92,13 @@ html {
     background-color: #d3d3d3;
 }
 .showcase-item {
-    padding: 40px;
+    padding-top:40px;
 
 }
-.showcase-item img{
+.showcase-item iframe{
     box-shadow: 5px 10px #888888;
 }
-.showcase-item, img,  p {
+.showcase-item, p {
     text-align: center;
 }
 .showcase-item p {
@@ -111,16 +111,7 @@ html {
     padding-left: 10%;
     color: #fafafa;
 }
-.showcase-item:hover {
-    opacity: 0.6;
-    transition-duration: 0.2s;
-}
-.video {
-    width:420px;
-    height:315px;
-    left:22px;
-    top: 30px;
-}
+
 /*------The Band  ----*/
 
 .team-title {
