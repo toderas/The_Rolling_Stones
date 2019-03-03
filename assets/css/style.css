@@ -12,7 +12,7 @@ html {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrfPA9WlOPXXw8vBKWFgBWYTivcRokdboaE3QlWgdm-l38lnSC);
+    url(https://cdn1-www.musicfeeds.com.au/assets/uploads/rolling-stones-sydney-backdrop-supplied-671x377.jpg);
     background-size: cover;
   position:relative;
   width: 100%;
@@ -28,9 +28,6 @@ html {
     height: 54px;
     text-align: right;
     padding-top:20px;
-    
-    
-  
 }
 
 .menuitem a {
@@ -55,7 +52,7 @@ html {
 }
 .menuitem span:hover {
     transition-duration: 0.02s;
-    color:#000; 
+    text-decoration:underline;
 }
 
     .navbar {
@@ -87,19 +84,26 @@ html {
     text-decoration: underline;
 }
 
-/*------what's new ----*/
+/*------gallery----*/
+.bg-gallery {
+    background-color:#222;
+}
 .bg-section-new {  
-    background-color: #000;
+    background-color: #d3d3d3;
 }
 .showcase-item {
     padding: 40px;
+
+}
+.showcase-item img{
+    box-shadow: 5px 10px #888888;
 }
 .showcase-item, img,  p {
     text-align: center;
 }
 .showcase-item p {
     font-family: serif;
-    color: #fff;
+    color: #222;
     font-size: 1.5em;
 }
 .audio p {
@@ -111,7 +115,12 @@ html {
     opacity: 0.6;
     transition-duration: 0.2s;
 }
-
+.video {
+    width:420px;
+    height:315px;
+    left:22px;
+    top: 30px;
+}
 /*------The Band  ----*/
 
 .team-title {
