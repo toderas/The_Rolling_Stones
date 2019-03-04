@@ -20,6 +20,9 @@ html {
     
 }
 /*----------navigation-----*/
+.bg-nav {
+    background-color:#222;
+}
 
 .navbar {
     display:block;
@@ -54,18 +57,13 @@ html {
     transition-duration: 0.02s;
     text-decoration:underline;
 }
-
-    .navbar {
+.navbar {
     background-color:transparent;
     }
-@media only screen and (max-width:594px){
-    .col-xs-2 {
-        width: 33.3%;
-    }
-    .navbar {
+.navbar {
     padding-bottom: 5px
     }
-}
+
 
 /*------home--------*/
 
@@ -85,9 +83,7 @@ html {
 }
 
 /*------gallery----*/
-.bg-gallery {
-    background-color:#222;
-}
+
 .bg-section-new {  
     background-color: #d3d3d3;
 }
@@ -119,6 +115,7 @@ html {
     font-family: fantasy;
     font-size: 1.5em;
     text-decoration: underline;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -135,23 +132,21 @@ html {
         width: 100%;
     }
 }
-.band-member a img:hover {
-    transition-duration: 0.2s;
-    opacity: 0.9;
-}
+
 .cover-image {
     width: 250px;
     height: 250px;
     border-radius: 50%;
 }
+
 .member-name {
-    font-family: Hanalei Fill;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
     font-style: italic;
     color: #000000;
 }
 .member-skills {
-    font-family:serif;
+    font-family:'Roboto Condensed', sans-serif;
     font-style: italic;
     font-size: 1.2em;
 }
@@ -170,7 +165,6 @@ html {
   color: #0000ff;
   transition-duration: 0.2s;
 }
-
 /*------Contact ----*/
 .contact-title {
     text-align:center;
