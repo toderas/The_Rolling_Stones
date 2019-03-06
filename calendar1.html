@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
     <title>Rolling Stones</title>
 
   </head>
 
   <body>
-  <header>
-    <!-- Navigation -->
-    <nav class="bg-nav">
+ <header>
+     <nav class="bg-nav">
         
     <div class="container">
         <div class="row">
@@ -48,42 +46,73 @@
     </nav>
     </header>
   	<section>
-  	     <div class="team-title">
-          <p>
-           Band Members
-          </p>
-        </div>
-      <div class="container">
-          <div class="row">
-          <div class="col-xs-12 col-sm-6 col-md-3 band-member">
-           <img class="cover-image" alt="Mick Jagger" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mick_Jagger_Deauville_2014.jpg/220px-Mick_Jagger_Deauville_2014.jpg">
-            <p class="member-name">Mick Jagger</p>
-             <p class="member-skills">Guitars - Since 1962</p>
-            <div class="btn btn-sm"> <a target="_blank" href="https://en.wikipedia.org/wiki/Mick_Jagger">See More </a></div>
-            
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 band-member">
-           <img class="cover-image" alt="Keith Richards" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KRichards01.JPG/220px-KRichards01.JPG">
-            <p class="member-name">Keith Richards</p>
-            <p class="member-skills">Electric Guitar - Since 1962</p>
-             <div class="btn btn-sm"><a target="_blank" href="https://en.wikipedia.org/wiki/Keith_Richards">See More</a></div>
-          </div>
-         
-          <div class="col-xs-12 col-sm-6 col-md-3 band-member">
-              <img class="cover-image" alt="Charlie Watts" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Charlie_Watts_Berlinale_2008.jpg/220px-Charlie_Watts_Berlinale_2008.jpg">
-            <p class="member-name">Charlie Watts</p>
-            <p class="member-skills">Drum Kits - Since 1963</p>
-            <div class="btn btn-sm"> <a target="_blank" href="https://en.wikipedia.org/wiki/Charlie_Watts">See More</a></div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-3 band-member">
-              <img class="cover-image" alt="Ronnie Wood" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ron_wood.jpg/250px-Ron_wood.jpg">
-            <p class="member-name">Ronnie Wood</p>
-            <p class="member-skills">Saxophones - Since 1975</p>
-            <div class="btn btn-sm"> <a target="_blank" href="https://en.wikipedia.org/wiki/Ronnie_Wood">See More</a></div>
-          </div>
-        </div>
+  <div class="container">
+
+  <div class="calendar-base">
+
+    <div class="year">2017</div>
+    <!-- year -->
+
+    <div class="triangle-left"></div>
+    <!--triangle -->
+    <div class="triangle-right"></div>
+    <!--  triangle -->
+
+    <div class="months">
+      <span class="month-hover">Jan</span>
+      <span class="month-hover">Feb</span> 
+      <span class="month-hover">Mar</span> 
+      <strong class="month-color">Apr</strong>
+      <span class="month-hover">May</span>
+      <span class="month-hover">Jun</span>
+      <span class="month-hover">July</span> 
+      <span class="month-hover">Aug</span> 
+      <span class="month-hover">Sep</span> 
+      <span class="month-hover">Oct</span> 
+      <span class="month-hover">Nov</span> 
+      <span class="month-hover">Dec</span>
+    </div><!-- months -->
+    <hr class="month-line" />
+
+    <div class="days">SUN MON TUE WED THU FRI SAT</div>
+    <!-- days -->
+
+    <div class="num-dates">
+
+      <div class="first-week"><span class="grey">26 27 28 29 30 31</span> 01</div>
+      <!-- first week -->
+      <div class="second-week">02 03 04 05 06 07 08</div>
+      <!-- week -->
+      <div class="third-week"> 09 10 11 12 13 14 15</div>
+      <!-- week -->
+      <div class="fourth-week"> 16 17 18 19 20 21 22</div>
+      <!-- week -->
+      <div class="fifth-week"> 23 24 25 26 <strong class="white">27</strong> 28 29</div>
+      <!-- week -->
+      <div class="sixth-week"> 30 <span class="grey">01 02 03 04 05 06</span></div>
+      <!-- week -->
+    </div>
+    <!-- num-dates -->
+    <div class="event-indicator"></div>
+    <!-- event-indicator -->
+    <div class="active-day"></div>
+    <!-- active-day -->
+    <div class="event-indicator two"></div>
+    <!-- event-indicator -->
+
+  </div>
+  <!-- calendar-base -->
+ 
+  <!-- calendar-left -->
+
+</div>
+<!-- container -->
   	</section>
-   <footer class="navbar-inverse">
+  
+  
+  
+  
+    <footer class="navbar-inverse">
     <div class="container">
             <div class="row">
                  <div class="col-sm-12 col-xs-12">
@@ -113,6 +142,7 @@
             </div>
     </div>
     </footer>
+
   </body>
 
 </html>
