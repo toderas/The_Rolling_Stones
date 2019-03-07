@@ -103,11 +103,21 @@ html {
     color: #222;
     font-size: 1.5em;
 }
-.audio p {
-    text-align: left;
-    padding-left: 10%;
-    color: #fafafa;
+.audio-player {
+     text-align: center;
+    width:auto;
+    height:auto;
+    position: relative;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.audio-player p {
+    text-align: center;
+    font-family: roboto;
+ color: #222;
+}
+
 
 /*------The Band  ----*/
 
@@ -212,155 +222,113 @@ html {
     }
 }
 /*------calendar ----*/
-
 .calendar-base {
-  width: 100%;
-  height: auto;
-  background-color: white;
+    text-align: center;
+    width:442px;
+    height:auto;
+    position: relative;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arrow-left {
+     float: left;
   position: relative;
-  color: black;
+  left:40%;
+  top: -17px;
 }
-
-.year {
-  color: #E8E8E8;
-  font-size: 30px;
-  float: none;
-  position: relative;
-  padding-left: 40%;
-  top: 20px;
-  font-weight: bold;
+.arrow-right {
+    float:right;
+    position:relative;
+    right:40%;
+    top:-17px;
 }
-
-.triangle-left {
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-right: 10px solid #E8E8E8;
-  border-bottom: 5px solid transparent;
-  float: left;
-  position: relative;
-  padding-left:35%;
-  top: -5px;
-}
-
-.triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 5px solid transparent;
-  border-left: 10px solid #E8E8E8;
-  border-bottom: 5px solid transparent;
-  float: left;
-  position: relative;
-  left: 15%;
-  top: -5px;
-}
-.triangle-left:hover{
-  border-right: 10px solid#2ECC71;
-}
-.triangle-right:hover{
-  border-left: 10px solid#2ECC71;
-}
-
-.month-color {
-  color: #27AE60;
-}
-.month-hover:hover{
-  color:#27e879 !important;
-}
-
 .months {
-  color: #AAAAAA;
-  position: relative;
-  top: 40px;
-  left:5%;
-  word-spacing: 10px;
+    background-color: #74e088;
+    word-spacing: 5px;
 }
-
 .month-line {
+  color: #000;
   border-color: #E8E8E8;
   position: relative;
-  top: 20px;
-  width: 80%;
-  left:-8%;
+  top: -15px;
+  width: 90%;
 }
 
-.days {
+    .days {
   color: #AAAAAA;
   position: relative;
-  font-size: 18px;
-  top: 30px;
-  word-spacing: 35px;
+  font-size: 15px;
+  top: -25px;
+  word-spacing: 5px;
   font-weight: 600;
 }
-
 .num-dates {
+  float: none;
   position: relative;
-  top:40px;
-  z-index: 1;
+  word-spacing: 20px;
+  top:-15px;
+ 
 }
-
+.grey {
+  color: #AAAAB1;
+}
 .first-week {
-  margin-bottom: 25px;
-  word-spacing: 61px;
+    height: 35px;
 }
-
 .second-week {
-  margin-bottom: 25px;
-  word-spacing: 61px;
+    height: 35px;
 }
-
 .third-week {
-  margin-bottom: 25px;
-  word-spacing: 61px;
+    height: 45px;
 }
-
 .fourth-week {
-  margin-bottom: 25px;
-  word-spacing: 61px;
+    height: 45px;
 }
-
 .fifth-week {
-  margin-bottom: 25px;
-  word-spacing: 61px;
+    height: 35px;
 }
-
-.sixth-week {
-  margin-bottom: 25px;
-  word-spacing: 61px;
+.event-date{
+    background-color: #74e088;
 }
-
+.event {
+    float: none;
+    position: relative;
+    top: -120px;
+    left:130px;
+    display: inline-block;
+    background-color: #74e088;
+}
+.event-two {
+    float: none;
+    position: relative;
+    top: -75px;
+    left:-30px;
+    display: inline-block;
+    background-color: #74e088;
+}
 .active-day {
   width: 35px;
   height: 35px;
   border-radius: 50%;
   background-color: #2ECC71;
   position: relative;
-  top: -64px;
-  left: 312px;
+  top:-238px;
+  left:85px;
+  opacity: 0.5
 }
 
-.white {
-  color: white;
-}
-
-.event-indicator {
-  width: 5px;
-  height: 5px;
+/*
+.active-day {
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  background-color: #2980B9;
+  background-color: #74e088;
   position: relative;
-  top: -230px;
-  left:6px;
+  bottom:185px;
+  left:85px;
 }
 
-.two {
-  position: relative;
-  left: 87px;
-}
-
-.grey {
-  color: #AAAAB1;
-}
 
 
 /*.cd-column {
