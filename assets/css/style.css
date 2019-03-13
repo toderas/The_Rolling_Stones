@@ -180,7 +180,48 @@ html {
     color: #d3d3d3;
     background-color: #222
 }
-/*------shop----*/
+/*---shop new-----*/
+.bg-nav-store {
+    background-color: lightgreen;
+}
+.menuitem-store {
+    height: 54px;
+    text-align: left;
+    padding-top:20px;
+}
+
+.menuitem-store a {
+    text-decoration: none;
+    color:#222;
+    height: 54px;
+   
+}
+
+
+
+.menuitem-store span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    border:solid 1px;
+}
+.menuitem-store span:hover {
+    transition-duration: 0.02s;
+    text-decoration:underline;
+}
+.item-title {
+    width:100%;
+    text-align: center;
+    background-color: aqua;
+}
+.item-content {
+}
+/*------shop old---
 .bg-shop{
     background-color: #626262;
 }
@@ -221,6 +262,7 @@ html {
         width: 100%;
     }
 }
+-*/
 /*------calendar ----*/
 .calendar-base {
     text-align: center;
