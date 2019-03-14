@@ -181,46 +181,63 @@ html {
     background-color: #222
 }
 /*---shop new-----*/
-.bg-nav-store {
-    background-color: lightgreen;
+.store {
+    margin-top:50px;
+    margin-bottom:50px;
 }
-.menuitem-store {
+.bg-nav-store {
+    background-color: #222;
+}
+.menuitem-store  {
     height: 54px;
     text-align: left;
     padding-top:20px;
+    padding-right: 0;
 }
 
-.menuitem-store a {
+.menuitem-store a   {
     text-decoration: none;
-    color:#222;
+    color:#fafafa;
     height: 54px;
    
 }
 
-
-
-.menuitem-store span {
+.menuitem-store a p {
     display: block;
     width: 100%;
     padding-top: 5px;
     text-align: left;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
-    letter-spacing: 2px;
-    border:solid 1px;
+    letter-spacing: 1px;
 }
-.menuitem-store span:hover {
-    transition-duration: 0.02s;
-    text-decoration:underline;
+.menuitem-store a p:hover {
+    color: #b0b8c4;
+      text-decoration:underline;
+      font-size: 13px;
+    transition-duration: 0.05s;
 }
 .item-title {
     width:100%;
     text-align: center;
-    background-color: aqua;
+    background-color:yellow;
+    margin-left: 0;
 }
-.item-content {
+
+.tour-month {
+    text-align:left;
+    font-family:sans-serif;
+    font-size:1.2em;
+    text-decoration:underline;
 }
+.tour-dates {
+    background-color:#222;
+}
+.tour-date {
+    
+}
+
 /*------shop old---
 .bg-shop{
     background-color: #626262;
